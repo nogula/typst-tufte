@@ -24,7 +24,7 @@
     (
       name: "First Last",
       role: none,
-      organization: none,
+      affiliation: none,
       location: none,
       email: none
     ),
@@ -204,8 +204,8 @@
           if "role" in author [
             \ #author.role
           ]
-          if "organization" in author [
-            \ #author.organization
+          if "affiliation" in author [
+            \ #author.affiliation
           ]
           if "email" in author [
             \ #author.email
