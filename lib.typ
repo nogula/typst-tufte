@@ -166,9 +166,7 @@
   set par(
     // justify: true,
     leading: 0.65em,
-    first-line-indent: 1em
-  )
-  show par: set block(
+    first-line-indent: 1em,
     spacing: 0.65em
   )
 
